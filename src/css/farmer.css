@@ -1,0 +1,144 @@
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+   
+}
+
+.imagedot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    font-size: 100px;
+}
+
+.title {
+    margin-top: 25px;
+
+}
+
+.title p {
+    font-weight: 700;
+    color: green;
+    font-size: 20px;
+}
+
+.number {
+    font-weight: 600;
+    color: #2280d3;
+    font-size: 18px;
+}
+
+.Container{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.row{
+   
+}
+@media(max-width:767px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+}
+
+.details{
+   background-color: #ffffff;
+   padding: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+   margin: 15px;
+   display: flex;
+   border-radius: 5px;
+}
+
+@media(max-width:767px){
+    .details{
+        flex-direction: column;
+    }
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Neo', sans-serif;
+}
+
+@media(max-width:767px){
+    .container-fluid{
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+.A{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+}
+
+.B{
+    display: flex;
+    flex-direction: row;
+}
+
+.para{
+    margin-left: 10px;
+}
+
+
+.divider {
+    border-left: 1px solid #949292; /* Adjust the styling of the vertical line as needed */
+    height: 100%; /* Adjust the height as needed to match the boxes */
+    margin: 0 10px; /* Adjust the margin to control the spacing between the line and boxes */
+  }
+
+
+  .divider {
+    content: "";
+   
+    top: 0;
+    height: 80%;
+    width: 1px;
+    background-color: rgba(59, 59, 59, 0.2);
+    transform: translateX(-50%); /* Center the line on the left column */
+  }
+
+  .head{
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .Z{
+    color: green;
+    font-weight: 500;
+    font-size: 20px;
+  }
+/* Combine Code*/
+
+ .Screen{
+    display: flex;
+ }
+
+ .farmer{
+    margin: 5rem;
+    flex: 1;
+   
+ }
+
+ 

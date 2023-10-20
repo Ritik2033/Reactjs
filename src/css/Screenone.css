@@ -1,0 +1,163 @@
+.app {
+    margin: 1rem;
+    font-family: 'Neo', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Number {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.arow {
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.box {
+    width: 24.5%;
+    margin: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    color: rgba(91, 87, 87, 0.8);
+}
+
+
+
+
+.arow p {
+    margin-top: 10px;
+    color: green;
+}
+
+@media (max-width: 950px) {
+
+    .headline,
+    .main {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+
+
+    }
+
+    .gantt_chat,
+    .pie_chat {
+        width: 100%;
+    }
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.pie_chat {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.gantt_chat {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.centered-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+
+    color: #333;
+
+}
+
+
+@media (max-width:768px) {
+
+    .gantt_chat,
+    .pie_chat {
+        width: 100%;
+
+    }
+}
+
+.chart_heading {
+    font-size: 20px;
+
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.my-datepicker {
+    height: 900px;
+    width: 100%;
+}
+
+.container_page15 {
+    padding: 5px;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+
+}
+
+.footer {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.headerrrr{
+    color: rgba(0, 64, 255, 0.867);
+}

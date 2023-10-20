@@ -1,0 +1,49 @@
+.head{
+    display: flex;
+}
+
+.head h5{
+    font-size: 25px;
+    color: rgb(23, 162, 184);
+}
+
+.head button{
+    margin-left: auto;
+    height: 36px;
+    min-width: 64px;
+    padding: 0 16px;
+    color: blue;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.page14{
+    padding: 15px;
+}
+
+.A{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.A box-icon, p{
+    margin-left: auto;
+}
+
+.A p{
+    font-size: 20px;
+    color: green;
+}
+
+.A h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.A h5{
+    color: rgba(91, 87, 87, 0.736);
+    font-weight: 24px;
+}
+
